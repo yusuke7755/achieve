@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.16.0'
 # デプロイするアプリケーション名
-set :application, 'ar'
+set :application, 'achieve'
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
 set :repo_url, 'git@github.com:yusuke7755/achieve.git'
