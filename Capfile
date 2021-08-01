@@ -5,8 +5,6 @@ require "capistrano/setup"
 require "capistrano/deploy"
 
 # デフォルトでファイルに記述されているものは追記しなくて良い
-require 'capistrano/setup'
-require 'capistrano/deploy'
 require 'capistrano/rbenv'
 require 'capistrano/bundler'
 require 'capistrano/rails/assets'
